@@ -180,6 +180,13 @@ def user_stats(df):
     print('-'*40)
 
 def display_raw_data(df):
+    """
+    Asks the user if they want to view raw bikeshare data
+        Displays raw, filtered bikeshare data in a Pandas DataFrame, 5 rows at a time, until the user opts out.
+
+    Returns:
+       df - a Pandas DataFrame of the data, 5 rows at a time, asking the user whether they want to view more data, and quits when they opt out by responding 'no'
+    """
     print("Printing raw data..")
     display_data = False
     display_data = input("Do you want to view the raw data?( enter yes/no:) ").lower()
