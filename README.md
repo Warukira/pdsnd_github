@@ -1,17 +1,25 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+# Date created
 
-### Date created
-Include the date you created this project and README file.
+25/06/2023
 
-### Project Title
-Replace the Project Title
+## Project Title
 
-### Description
-Describe what your project is about and what it does
+Explore US Bikeshare Data project
 
-### Files used
-Include the files used
+## Description
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+This project is a Python program that allows the user to interact with rental bikeshare data from New York, Washington and Chicago cities.
 
+## Files used
+
+- Chicago City bikeshare data file
+- Washington City bikeshare data file
+- New York City bikeshare data file
+
+## Credits
+
+- Stack Overflow
+- Python and Pandas Documentation
+- Practice questions in the Udacity Classroom
+- Guidance provided by Udacity tutors on the Slack Workspace.
+- [Superuser](https://superuser.com/questions/751699/is-there-a-way-to-edit-a-commit-message-on-github)
