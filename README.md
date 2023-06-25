@@ -22,3 +22,4 @@ This project is a Python program that allows the user to interact with rental bi
 - Python and Pandas Documentation
 - Practice questions in the Udacity Classroom
 - Guidance provided by Udacity tutors on the Slack Workspace.
+- [Superuser](https://superuser.com/questions/751699/is-there-a-way-to-edit-a-commit-message-on-github)
