@@ -188,15 +188,18 @@ def user_stats(df):
 
 def display_raw_data(df):
     print("Printing raw data..")
+    # Gets user input for whether they want to view the raw, filtered data
     display_data = False
     display_data = input("Do you want to view the raw data?( enter yes/no:) ").lower()
     index = 0
     while True:
+        # Displays the raw, filtered data if the user responds that they want to view it
         for i in range(5):
             if display_data == 'yes':
                 display_data == True
                 print(df.iloc[index])
                 index += 1
+                # Notifies the user when they have viewed the entire DataFrame
                 if index >= len(df):
                     print("No more data to display")
                     break
@@ -205,6 +208,7 @@ def display_raw_data(df):
                 break
     
         else:
+            # Gets user input for whether they want to continue viewing the raw, filtered data and quits if they respond 'no'
             display_more_data = input("Do you want to view more raw data? ")
             if display_more_data == 'no':
                 display_data = False
