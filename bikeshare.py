@@ -51,7 +51,7 @@ def get_filters():
     return city, month, day
 
 
-def load_data(city, month, day):
+def load_filtered_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
 
@@ -208,7 +208,7 @@ def display_raw_data(df):
 def main():
     while True:
         city, month, day = get_filters()
-        df = load_data(city, month, day)
+        df = load_filtered_data(city, month, day)
 
         time_stats(df)
         station_stats(df)
